@@ -1,13 +1,9 @@
-![txdwls's GitHub stats](https://github-readme-stats.vercel.app/api?username=txdwls&show_icons=&theme=dracula)
-
 ## 💻 Tech Stack
 ### ▪️ Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### ▪️ Frameworks
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/springboot-%236DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
 ### ▪️ Libraries
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
