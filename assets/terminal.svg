@@ -47,7 +47,7 @@
       <text x="26" y="364"><tspan class="label">Backend</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">FastAPI</tspan></text>
       <text x="26" y="388"><tspan class="label">AI/ML</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">PyTorch   TensorRT   vLLM   OpenCV</tspan></text>
       <text x="26" y="412"><tspan class="label">Agents</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">LangChain   LangGraph</tspan></text>
-      <text x="26" y="436"><tspan class="label">Data</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">MySQL   Qdrant   Chroma</tspan></text>
+      <text x="26" y="436"><tspan class="label">DataBase</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">MySQL   Qdrant   Chroma</tspan></text>
       <text x="26" y="460"><tspan class="label">Tools</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">Docker   Git   Linux</tspan></text>
     </g>
 
@@ -66,6 +66,6 @@
     <text x="26" y="554" class="fg">Currently shipping reliable AI systems and always building</text>
 
     <text x="26" y="580"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan></text>
-    <rect class="cursor" x="196" y="568" width="9" height="15" rx="1"/>
+    <rect class="cursor" x="172" y="570" width="8" height="13" rx="1"/>
   </g>
 </svg>
