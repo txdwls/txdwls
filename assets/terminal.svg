@@ -1,6 +1,6 @@
-<svg width="900" height="812" viewBox="0 0 700 631" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">txdwls Claude Code terminal</title>
-  <desc id="desc">A static default terminal running a Claude Code session. The user opens the txdwls profile; the agent reads profile.md and displays the name, role, and technical stack. A blinking cursor waits at the bottom.</desc>
+<svg width="900" height="786" viewBox="0 0 700 611" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">txdwls neofetch terminal</title>
+  <desc id="desc">A static tokyonight terminal running neofetch to show txdwls' AI engineer profile. All information is visible immediately with no typing animation.</desc>
 
   <defs>
     <filter id="shadow" x="-8%" y="-8%" width="116%" height="124%">
@@ -8,59 +8,64 @@
     </filter>
     <style>
       .mono { font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; }
-      .user   { fill: #f2f2f2; font-weight: 600; }
-      .dim    { fill: #808080; }
-      .path   { fill: #b8b8b8; }
-      .green  { fill: #b8b8b8; }
-      .fg     { fill: #d0d0d0; }
-      .bright { fill: #f2f2f2; }
-      .host   { fill: #f2f2f2; font-weight: 600; }
-      .label  { fill: #f2f2f2; font-weight: 600; }
-      .cursor { fill: #f2f2f2; animation: blink 1.06s steps(1, end) infinite; }
+      .user   { fill: #bb9af7; font-weight: 600; }
+      .dim    { fill: #565f89; }
+      .path   { fill: #7dcfff; }
+      .green  { fill: #9ece6a; }
+      .fg     { fill: #a9b1d6; }
+      .host   { fill: #e0af68; font-weight: 600; }
+      .label  { fill: #7aa2f7; font-weight: 600; }
+      .cursor { fill: #c0caf5; animation: blink 1.06s steps(1, end) infinite; }
       @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
     </style>
   </defs>
 
   <g filter="url(#shadow)">
-    <rect x="8.5" y="8.5" width="683" height="613.5" rx="11.5" fill="#0d0d0d" stroke="#333333"/>
-    <circle cx="30" cy="32" r="6" fill="#ff5f57"/>
-    <circle cx="50" cy="32" r="6" fill="#febc2e"/>
-    <circle cx="70" cy="32" r="6" fill="#28c840"/>
-    <text x="350" y="37" text-anchor="middle" class="mono dim">txdwls@github: ~ — claude</text>
-    <line x1="9" y1="56" x2="691" y2="56" stroke="#333333"/>
+    <rect x="8.5" y="8.5" width="683" height="593.5" rx="11.5" fill="#1a1b26" stroke="#2a2b3d"/>
+    <circle cx="30" cy="32" r="6" fill="#f7768e"/>
+    <circle cx="50" cy="32" r="6" fill="#e0af68"/>
+    <circle cx="70" cy="32" r="6" fill="#9ece6a"/>
+    <text x="350" y="37" text-anchor="middle" class="mono dim">txdwls@github: ~</text>
+    <line x1="9" y1="56" x2="691" y2="56" stroke="#2a2b3d"/>
   </g>
 
   <g class="mono">
-    <text x="26" y="88"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan><tspan class="fg"> claude</tspan></text>
+    <text x="26" y="88"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan><tspan class="fg"> whoami</tspan></text>
+    <text x="26" y="112" class="fg">AI Engineer</text>
 
-    <rect x="26" y="104" width="420" height="92" rx="8" fill="none" stroke="#555555"/>
-    <text x="42" y="130"><tspan class="host">✻</tspan><tspan class="bright" x="60">Welcome to Claude Code!</tspan></text>
-    <text x="60" y="156" class="dim">/help for help, /status for your current setup</text>
-    <text x="60" y="180" class="dim">cwd: ~/txdwls</text>
+    <text x="26" y="150"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan><tspan class="fg"> aboutme</tspan></text>
+    <text x="26" y="174" class="fg">Building production grade computer vision and</text>
+    <text x="26" y="198" class="fg">LLM inference systems from fast prototype to reliable service</text>
 
-    <text x="26" y="224"><tspan class="dim">&gt;</tspan><tspan class="fg" x="44">Show profile</tspan></text>
-
-    <text x="26" y="256"><tspan class="green">●</tspan><tspan class="bright" x="44">Read</tspan><tspan class="dim">(profile.md)</tspan></text>
-    <text x="44" y="280" class="dim">⎿  Read 42 lines (ctrl+r to expand)</text>
-
-    <text x="44" y="312"><tspan class="label">Name</tspan><tspan class="fg" x="150">txdwls</tspan></text>
-    <text x="44" y="336"><tspan class="label">Role</tspan><tspan class="fg" x="150">AI Engineer</tspan></text>
+    <text x="26" y="236"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan><tspan class="fg"> neofetch</tspan></text>
 
     <g xml:space="preserve">
-      <text x="44" y="368"><tspan class="label">Languages</tspan><tspan class="fg" x="150">Python</tspan></text>
-      <text x="44" y="392"><tspan class="label">Backend</tspan><tspan class="fg" x="150">FastAPI</tspan></text>
-      <text x="44" y="416"><tspan class="label">AI/ML</tspan><tspan class="fg" x="150">PyTorch · OpenCV</tspan></text>
-      <text x="44" y="440"><tspan class="label">Inference</tspan><tspan class="fg" x="150">TensorRT · vLLM</tspan></text>
-      <text x="44" y="464"><tspan class="label">Agents</tspan><tspan class="fg" x="150">LangChain · LangGraph</tspan></text>
-      <text x="44" y="488"><tspan class="label">Databases</tspan><tspan class="fg" x="150">MySQL · Qdrant · Chroma</tspan></text>
-      <text x="44" y="512"><tspan class="label">Infra</tspan><tspan class="fg" x="150">Docker · Git · Linux</tspan></text>
+      <text x="26" y="268"><tspan class="host">txdwls</tspan><tspan class="dim">@</tspan><tspan class="host">github</tspan></text>
+      <line x1="26" y1="286" x2="250" y2="286" stroke="#565f89" stroke-width="1"/>
+      <text x="26" y="316"><tspan class="label">Role</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">AI Engineer</tspan></text>
+      <text x="26" y="340"><tspan class="label">Lang</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">Python</tspan></text>
+      <text x="26" y="364"><tspan class="label">Backend</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">FastAPI</tspan></text>
+      <text x="26" y="388"><tspan class="label">AI/ML</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">PyTorch   TensorRT   vLLM   OpenCV</tspan></text>
+      <text x="26" y="412"><tspan class="label">Agents</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">LangChain   LangGraph</tspan></text>
+      <text x="26" y="436"><tspan class="label">DataBase</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">MySQL   Qdrant   Chroma</tspan></text>
+      <text x="26" y="460"><tspan class="label">Tools</tspan><tspan class="dim">:</tspan><tspan class="fg" x="150">Docker   Git   Linux</tspan></text>
     </g>
 
+    <g>
+      <rect x="26" y="482" width="18" height="12" rx="2" fill="#15161e"/>
+      <rect x="46" y="482" width="18" height="12" rx="2" fill="#f7768e"/>
+      <rect x="66" y="482" width="18" height="12" rx="2" fill="#9ece6a"/>
+      <rect x="86" y="482" width="18" height="12" rx="2" fill="#e0af68"/>
+      <rect x="106" y="482" width="18" height="12" rx="2" fill="#7aa2f7"/>
+      <rect x="126" y="482" width="18" height="12" rx="2" fill="#bb9af7"/>
+      <rect x="146" y="482" width="18" height="12" rx="2" fill="#7dcfff"/>
+      <rect x="166" y="482" width="18" height="12" rx="2" fill="#a9b1d6"/>
+    </g>
 
-    <rect x="26" y="544" width="648" height="38" rx="8" fill="none" stroke="#555555"/>
-    <text x="40" y="568" class="bright">&gt;</text>
-    <rect class="cursor" x="56" y="557" width="8" height="13" rx="1"/>
+    <text x="26" y="530"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan><tspan class="fg"> cat ~/.plan</tspan></text>
+    <text x="26" y="554" class="fg">Currently shipping reliable AI systems and always building</text>
 
-    <text x="26" y="606" class="dim">? for shortcuts</text>
+    <text x="26" y="580"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan></text>
+    <rect class="cursor" x="172" y="570" width="8" height="13" rx="1"/>
   </g>
 </svg>
