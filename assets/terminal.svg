@@ -1,6 +1,6 @@
 <svg width="900" height="873" viewBox="0 0 700 679" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">txdwls Claude Code terminal</title>
-  <desc id="desc">A static default terminal running a Claude Code session. The user asks about txdwls; the agent reads profile.md, describes an AI engineer focused on computer vision and LLM inference systems, summarizes the technical stack, and updates a todo list. A blinking cursor waits at the bottom.</desc>
+  <desc id="desc">A static default terminal running a Claude Code session. The user opens the txdwls profile; the agent reads profile.md and displays the name, role, technical stack, and a short todo list. A blinking cursor waits at the bottom.</desc>
 
   <defs>
     <filter id="shadow" x="-8%" y="-8%" width="116%" height="124%">
@@ -39,13 +39,13 @@
     <text x="60" y="156" class="dim">/help for help, /status for your current setup</text>
     <text x="60" y="180" class="dim">cwd: ~/txdwls</text>
 
-    <text x="26" y="224"><tspan class="dim">&gt;</tspan><tspan class="fg" x="44">Introduce txdwls</tspan></text>
+    <text x="26" y="224"><tspan class="dim">&gt;</tspan><tspan class="fg" x="44">Show profile</tspan></text>
 
     <text x="26" y="256"><tspan class="green">●</tspan><tspan class="bright" x="44">Read</tspan><tspan class="dim">(profile.md)</tspan></text>
     <text x="44" y="280" class="dim">⎿  Read 42 lines (ctrl+r to expand)</text>
 
-    <text x="26" y="312"><tspan class="bright">●</tspan><tspan class="fg" x="44">AI Engineer building computer vision and LLM inference systems,</tspan></text>
-    <text x="44" y="336" class="fg">from rapid prototypes to reliable production services.</text>
+    <text x="44" y="312"><tspan class="label">Name</tspan><tspan class="fg" x="150">txdwls</tspan></text>
+    <text x="44" y="336"><tspan class="label">Role</tspan><tspan class="fg" x="150">AI Engineer</tspan></text>
 
     <g xml:space="preserve">
       <text x="44" y="368"><tspan class="label">AI/ML</tspan><tspan class="fg" x="150">PyTorch · TensorRT · vLLM · OpenCV</tspan></text>
