@@ -1,4 +1,4 @@
-<svg width="900" height="873" viewBox="0 0 700 679" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="900" height="935" viewBox="0 0 700 727" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">txdwls Claude Code terminal</title>
   <desc id="desc">A static default terminal running a Claude Code session. The user opens the txdwls profile; the agent reads profile.md and displays the name, role, technical stack, and a short todo list. A blinking cursor waits at the bottom.</desc>
 
@@ -23,7 +23,7 @@
   </defs>
 
   <g filter="url(#shadow)">
-    <rect x="8.5" y="8.5" width="683" height="661.5" rx="11.5" fill="#0d0d0d" stroke="#333333"/>
+    <rect x="8.5" y="8.5" width="683" height="709.5" rx="11.5" fill="#0d0d0d" stroke="#333333"/>
     <circle cx="30" cy="32" r="6" fill="#ff5f57"/>
     <circle cx="50" cy="32" r="6" fill="#febc2e"/>
     <circle cx="70" cy="32" r="6" fill="#28c840"/>
@@ -48,22 +48,24 @@
     <text x="44" y="336"><tspan class="label">Role</tspan><tspan class="fg" x="150">AI Engineer</tspan></text>
 
     <g xml:space="preserve">
-      <text x="44" y="368"><tspan class="label">AI/ML</tspan><tspan class="fg" x="150">PyTorch · TensorRT · vLLM · OpenCV</tspan></text>
-      <text x="44" y="392"><tspan class="label">Agents</tspan><tspan class="fg" x="150">LangChain · LangGraph</tspan></text>
-      <text x="44" y="416"><tspan class="label">Backend</tspan><tspan class="fg" x="150">Python · FastAPI</tspan></text>
-      <text x="44" y="440"><tspan class="label">Data</tspan><tspan class="fg" x="150">MySQL · Qdrant · Chroma</tspan></text>
-      <text x="44" y="464"><tspan class="label">Infra</tspan><tspan class="fg" x="150">Docker · Git · Linux</tspan></text>
+      <text x="44" y="368"><tspan class="label">AI/ML</tspan><tspan class="fg" x="150">PyTorch · OpenCV</tspan></text>
+      <text x="44" y="392"><tspan class="label">Inference</tspan><tspan class="fg" x="150">TensorRT · vLLM</tspan></text>
+      <text x="44" y="416"><tspan class="label">Agents</tspan><tspan class="fg" x="150">LangChain · LangGraph</tspan></text>
+      <text x="44" y="440"><tspan class="label">Languages</tspan><tspan class="fg" x="150">Python</tspan></text>
+      <text x="44" y="464"><tspan class="label">Backend</tspan><tspan class="fg" x="150">FastAPI</tspan></text>
+      <text x="44" y="488"><tspan class="label">Databases</tspan><tspan class="fg" x="150">MySQL · Qdrant · Chroma</tspan></text>
+      <text x="44" y="512"><tspan class="label">Infra</tspan><tspan class="fg" x="150">Docker · Git · Linux</tspan></text>
     </g>
 
-    <text x="26" y="496"><tspan class="green">●</tspan><tspan class="bright" x="44">Update Todos</tspan></text>
-    <text x="44" y="520"><tspan class="dim">⎿</tspan><tspan class="dim strike" x="66">☒ Serve computer vision pipelines in production</tspan></text>
-    <text x="66" y="544" class="dim strike">☒ Optimize LLM inference</text>
-    <text x="66" y="568" class="fg">☐ Build the next useful system</text>
+    <text x="26" y="544"><tspan class="green">●</tspan><tspan class="bright" x="44">Update Todos</tspan></text>
+    <text x="44" y="568"><tspan class="dim">⎿</tspan><tspan class="dim strike" x="66">☒ Serve computer vision pipelines in production</tspan></text>
+    <text x="66" y="592" class="dim strike">☒ Optimize LLM inference</text>
+    <text x="66" y="616" class="fg">☐ Build the next useful system</text>
 
-    <rect x="26" y="592" width="648" height="38" rx="8" fill="none" stroke="#555555"/>
-    <text x="40" y="616" class="bright">&gt;</text>
-    <rect class="cursor" x="56" y="605" width="8" height="13" rx="1"/>
+    <rect x="26" y="640" width="648" height="38" rx="8" fill="none" stroke="#555555"/>
+    <text x="40" y="664" class="bright">&gt;</text>
+    <rect class="cursor" x="56" y="653" width="8" height="13" rx="1"/>
 
-    <text x="26" y="654" class="dim">? for shortcuts</text>
+    <text x="26" y="702" class="dim">? for shortcuts</text>
   </g>
 </svg>
