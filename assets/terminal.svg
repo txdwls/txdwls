@@ -1,6 +1,6 @@
 <svg width="900" height="873" viewBox="0 0 700 679" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">txdwls Claude Code terminal</title>
-  <desc id="desc">A static tokyonight terminal running a Claude Code session. After the welcome banner, the user asks about txdwls in Korean; the agent reads profile.md, answers that txdwls is an AI engineer building computer vision and LLM inference systems with a stack summary, then updates a todo list. A bordered input box with a blinking cursor waits at the bottom.</desc>
+  <desc id="desc">A static default terminal running a Claude Code session. The user asks about txdwls; the agent reads profile.md, describes an AI engineer focused on computer vision and LLM inference systems, summarizes the technical stack, and updates a todo list. A blinking cursor waits at the bottom.</desc>
 
   <defs>
     <filter id="shadow" x="-8%" y="-8%" width="116%" height="124%">
@@ -8,44 +8,44 @@
     </filter>
     <style>
       .mono { font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; }
-      .user   { fill: #bb9af7; font-weight: 600; }
-      .dim    { fill: #565f89; }
-      .path   { fill: #7dcfff; }
-      .green  { fill: #9ece6a; }
-      .fg     { fill: #a9b1d6; }
-      .bright { fill: #c0caf5; }
-      .host   { fill: #e0af68; font-weight: 600; }
-      .label  { fill: #7aa2f7; font-weight: 600; }
+      .user   { fill: #f2f2f2; font-weight: 600; }
+      .dim    { fill: #808080; }
+      .path   { fill: #b8b8b8; }
+      .green  { fill: #b8b8b8; }
+      .fg     { fill: #d0d0d0; }
+      .bright { fill: #f2f2f2; }
+      .host   { fill: #f2f2f2; font-weight: 600; }
+      .label  { fill: #f2f2f2; font-weight: 600; }
       .strike { text-decoration: line-through; }
-      .cursor { fill: #c0caf5; animation: blink 1.06s steps(1, end) infinite; }
+      .cursor { fill: #f2f2f2; animation: blink 1.06s steps(1, end) infinite; }
       @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
     </style>
   </defs>
 
   <g filter="url(#shadow)">
-    <rect x="8.5" y="8.5" width="683" height="661.5" rx="11.5" fill="#1a1b26" stroke="#2a2b3d"/>
-    <circle cx="30" cy="32" r="6" fill="#f7768e"/>
-    <circle cx="50" cy="32" r="6" fill="#e0af68"/>
-    <circle cx="70" cy="32" r="6" fill="#9ece6a"/>
+    <rect x="8.5" y="8.5" width="683" height="661.5" rx="11.5" fill="#0d0d0d" stroke="#333333"/>
+    <circle cx="30" cy="32" r="6" fill="#ff5f57"/>
+    <circle cx="50" cy="32" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="32" r="6" fill="#28c840"/>
     <text x="350" y="37" text-anchor="middle" class="mono dim">txdwls@github: ~ — claude</text>
-    <line x1="9" y1="56" x2="691" y2="56" stroke="#2a2b3d"/>
+    <line x1="9" y1="56" x2="691" y2="56" stroke="#333333"/>
   </g>
 
   <g class="mono">
     <text x="26" y="88"><tspan class="user">txdwls@github.com</tspan><tspan class="dim">:</tspan><tspan class="path">~</tspan><tspan class="green">$</tspan><tspan class="fg"> claude</tspan></text>
 
-    <rect x="26" y="104" width="420" height="92" rx="8" fill="none" stroke="#565f89"/>
+    <rect x="26" y="104" width="420" height="92" rx="8" fill="none" stroke="#555555"/>
     <text x="42" y="130"><tspan class="host">✻</tspan><tspan class="bright" x="60">Welcome to Claude Code!</tspan></text>
     <text x="60" y="156" class="dim">/help for help, /status for your current setup</text>
     <text x="60" y="180" class="dim">cwd: ~/txdwls</text>
 
-    <text x="26" y="224"><tspan class="dim">&gt;</tspan><tspan class="fg" x="44">txdwls 소개해줘</tspan></text>
+    <text x="26" y="224"><tspan class="dim">&gt;</tspan><tspan class="fg" x="44">Introduce txdwls</tspan></text>
 
     <text x="26" y="256"><tspan class="green">●</tspan><tspan class="bright" x="44">Read</tspan><tspan class="dim">(profile.md)</tspan></text>
     <text x="44" y="280" class="dim">⎿  Read 42 lines (ctrl+r to expand)</text>
 
-    <text x="26" y="312"><tspan class="bright">●</tspan><tspan class="fg" x="44">AI Engineer — 컴퓨터 비전과 LLM 추론 시스템을 프로토타입부터</tspan></text>
-    <text x="44" y="336" class="fg">프로덕션까지 만듭니다.</text>
+    <text x="26" y="312"><tspan class="bright">●</tspan><tspan class="fg" x="44">AI Engineer building computer vision and LLM inference systems,</tspan></text>
+    <text x="44" y="336" class="fg">from rapid prototypes to reliable production services.</text>
 
     <g xml:space="preserve">
       <text x="44" y="368"><tspan class="label">AI/ML</tspan><tspan class="fg" x="150">PyTorch · TensorRT · vLLM · OpenCV</tspan></text>
@@ -56,11 +56,11 @@
     </g>
 
     <text x="26" y="496"><tspan class="green">●</tspan><tspan class="bright" x="44">Update Todos</tspan></text>
-    <text x="44" y="520"><tspan class="dim">⎿</tspan><tspan class="dim strike" x="66">☒ CV 파이프라인 프로덕션 서빙</tspan></text>
-    <text x="66" y="544" class="dim strike">☒ LLM 추론 최적화</text>
-    <text x="66" y="568" class="fg">☐ 다음 문제 찾기</text>
+    <text x="44" y="520"><tspan class="dim">⎿</tspan><tspan class="dim strike" x="66">☒ Serve computer vision pipelines in production</tspan></text>
+    <text x="66" y="544" class="dim strike">☒ Optimize LLM inference</text>
+    <text x="66" y="568" class="fg">☐ Build the next useful system</text>
 
-    <rect x="26" y="592" width="648" height="38" rx="8" fill="none" stroke="#565f89"/>
+    <rect x="26" y="592" width="648" height="38" rx="8" fill="none" stroke="#555555"/>
     <text x="40" y="616" class="bright">&gt;</text>
     <rect class="cursor" x="56" y="605" width="8" height="13" rx="1"/>
 
